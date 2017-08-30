@@ -17,9 +17,4 @@ const tuples = data
 
 const generator = line();
 
-const lineString = generator(tuples);
-
-let pathElement = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-pathElement.setAttribute('d', lineString);
-
-document.querySelector('svg').appendChild(pathElement);
+export const lineString = generator(tuples);

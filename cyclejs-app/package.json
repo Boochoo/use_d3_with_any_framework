@@ -17,6 +17,8 @@
     "@cycle/run": "^3.1.0",
     "@cycle/time": "^0.8.0",
     "cycle-onionify": "^3.3.0",
+    "d3-scale": "^1.0.6",
+    "d3-shape": "^1.2.0",
     "xstream": "^10.9.0"
   },
   "scripts": {
