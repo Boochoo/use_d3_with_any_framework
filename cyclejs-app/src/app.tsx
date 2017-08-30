@@ -14,7 +14,7 @@ export function App(sources: Sources): Sinks {
 function view(): Stream<VNode> {
     return xs.of(
         <div>
-            <h2>My Awesome Cycle.js app</h2>
+            <h2>My awesome Cycle.js app</h2>
             <svg>
                 <path d={ lineString } />
             </svg>
